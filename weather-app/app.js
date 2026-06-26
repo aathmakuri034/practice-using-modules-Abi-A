@@ -61,7 +61,7 @@ switch (city.city) {
   default:
     console.log(
       chalk.bgRedBright(
-        `Can't find udpates for entered city ${city}. Please try again with different city.`,
+        `Can't find udpates for entered city ${city.city}. Please try again with different city.`,
       ),
     );
     break;
